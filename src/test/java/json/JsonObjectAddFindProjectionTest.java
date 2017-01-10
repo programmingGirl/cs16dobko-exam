@@ -30,7 +30,7 @@ public class JsonObjectAddFindProjectionTest {
         JSONAssert.assertEquals(expectedJSON, jsonObject.toJson(), true);
     }
 
-    @Test
+    /**@Test
     public void testAddUpdateExistingValue() throws Exception {
         JsonObject jsonObject =
                 new JsonObject(
@@ -42,7 +42,7 @@ public class JsonObjectAddFindProjectionTest {
         String expectedJSON = "{'name': 'Oles', 'age': 19}";
 
         JSONAssert.assertEquals(expectedJSON, jsonObject.toJson(), true);
-    }
+    }*/
 
     @Test
     public void testFindExists() throws Exception {

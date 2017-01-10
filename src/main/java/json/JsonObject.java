@@ -18,7 +18,7 @@ public class JsonObject extends Json {
             collection.add(j);
             //System.out.println(j.value.toJson());
             //jsonObject.add(j);
-            System.out.println(j.key);
+
         }
     }
 
